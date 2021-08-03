@@ -2,7 +2,7 @@
 
  /* To customize panel color / transparency, edit the following: */
  .panel-top, .panel-bottom, .panel-left, .panel-right {
-    background-color: rgba(0, 0, 0, 0.59);
+    background-color: rgba(46, 46, 46, 0.59); /* panel bg color & alpha */
     }
 
  /* To customize main Cinnamon menu: */
@@ -10,7 +10,7 @@
   color: #f0f0f0;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0.59); } /* menu bg color & alpha */
+  background-color: rgba(46, 46, 46, 0.59); } /* menu bg color & alpha */
   .menu.top {
     border-radius: 0 0 3px 3px; }
   .menu.bottom {
@@ -22,12 +22,12 @@
 .menu-favorites-box {
   padding: 10px;
   transition-duration: 300;
-  background-color: rgba(64, 64, 64, 0.75);
+  background-color: rgba(64, 64, 64, 0.75); /* menu box bg color & alpha */
   border: 1px solid #202020; }
 /* menu search box */
-#notification StEntry:hover {
+#menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: #f0f0f0;
-    background-color: rgba(64, 64, 64, 0.7); /* searchbox background */
+    background-color: rgba(64, 64, 64, 0.59); /* searchbox background */
     border: 1px solid #92b372;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
 
@@ -35,7 +35,7 @@
 .switcher-list {
   color: #f0f0f0;
   border: 1px solid #202020;
-  background-color: rgba(47, 47, 47, .75); /* bg color & alpha */
+  background-color: rgba(47, 47, 47, 0.75); /* bg color & alpha */
   border-radius: 3px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
@@ -86,7 +86,7 @@
 .grouped-window-list-thumbnail-menu {
   color: #f0f0f0;
   border: 1px solid #202020;
-  background-color: rgba(47, 47, 47, .5); /* color & alpha */
+  background-color: rgba(47, 47, 47, 0.5); /* color & alpha */
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
@@ -111,7 +111,7 @@
   padding: 10px 15px 10px 15px;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f; } /* color & bg */
+  background-color: rgba(47, 47, 47, .59); } /* color & bg */
   .run-dialog > * {
     padding: 0; }
   .run-dialog-label {
