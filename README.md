@@ -4,6 +4,7 @@ Fork of the elegant Mint-Y-Dark theme for Cinnamon Desktop Environment using tra
 ## Screenshot
 ![screenshot](https://i.imgur.com/Uv2IsSr.png)
 ![screenshot](https://i.imgur.com/NsG7szl.gif)
+![screenshot]("./screenshot.png")
 
 ## Installation
 ### Automatic
@@ -22,7 +23,7 @@ Select the theme as your Desktop in the Cinnamon Themes app.
 This theme was created and tested with Cinnamon version `5.0.5`. Cinnamon version `4.x.x`+ likely works fine but has not been tested, and versions older than that might or might not work.
 
 ## My setup
-Wallpaper: [Mountains Moon Trees Minimalism](https://images.hdqwalls.com/wallpapers/mountains-moon-trees-minimalism-hd.jpg)<br>
+Wallpaper: [Firewatch Green](https://imgur.com/nJUueyI)<br>
 Window Borders: Mint-Y-Dark<br>
 Icons: Papirus-Dark<br>
 Controls: Mint-Y-Dark<br>
