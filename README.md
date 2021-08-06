@@ -3,7 +3,7 @@ Fork of the elegant Mint-Y-Dark theme for Cinnamon Desktop Environment using tra
 
 ## Screenshot
 ![screenshot](https://i.imgur.com/Uv2IsSr.png)
-![screenshot](https://i.imgur.com/NsG7szl.gifv)
+![screenshot](https://i.imgur.com/NsG7szl.gif)
 
 ## Installation
 ### Automatic
