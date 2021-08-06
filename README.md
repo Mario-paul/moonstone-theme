@@ -1,10 +1,10 @@
-# moonstone-theme
+# Moonstone
 Fork of the elegant Mint-Y-Dark theme for Cinnamon Desktop Environment using transparent UI elements
 
-## Screenshot
-![screenshot](https://i.imgur.com/Uv2IsSr.png)
+<!-- ## Screenshot -->
+<!-- ![screenshot](https://github.com/Mario-paul/moonstone-theme/blob/main/screenshot.png?raw=true) -->
+<!-- ![screenshot](https://i.imgur.com/Uv2IsSr.png) -->
 ![screenshot](https://i.imgur.com/NsG7szl.gif)
-![screenshot]("./screenshot.png")
 
 ## Installation
 ### Automatic
