@@ -2,9 +2,10 @@
 
  /* Linux Mint Accent Colors
  To change the Desktop accent color, open cinnamon.css file,
- find-and-replace "92b372" (without quotes), and replace with
- any of the colors in this list.
-  */
+ find-and-replace ALL "92b372" (without quotes), and replace with
+ any of the colors in this list. Save, then restart Cinnamon with
+ ctrl + alt + esc.
+ */
  /* 
  Mint: #92b372
  Aqua: #6cabcd
@@ -19,7 +20,13 @@
  Teal: #5aaa9a
  */
 
- /* To customize panel color / transparency, edit the following: */
+
+ /* To customize element colors and/or transparency, edit the rgba() values.
+ The values are rgba(red, green, blue, transparency). Colors go from 0 to 255,
+ 0 being black and 255 being full. Transparency is any number from 0 to 1,
+ 0 being fully transparent, 0.5 half transparent, and 1 being fully opaque.
+ */
+
  .panel-top, .panel-bottom, .panel-left, .panel-right {
     background-color: rgba(46, 46, 46, 0.59); /* panel bg color & alpha */
     }
@@ -30,7 +37,7 @@
 
 .menu-favorites-box {
   background-color: rgba(64, 64, 64, 0.75); /* menu favorites box bg color & alpha */
- }
+    }
 /* menu search box */
 #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     background-color: rgba(64, 64, 64, 0.59); /* searchbox background */
